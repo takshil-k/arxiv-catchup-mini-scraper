@@ -1,0 +1,122 @@
+{
+    "page_metadata": {
+        "total_articles": 9,
+        "date_raw": "Fri, 01 Nov 2024",
+        "date_clean": "2024-11-01",
+        "next_page_url": "https://arxiv.org/catchup/cs.PL/2024-11-04?abs=True&page=1"
+    },
+    "page_categories_meta_data": {
+        "categories": [
+            "New submissions",
+            "Cross submissions",
+            "Replacement submissions"
+        ],
+        "New submissions": 1,
+        "Cross submissions": 3,
+        "Replacement submissions": 5
+    },
+    "page_articles": [
+        {
+            "category": "New submissions",
+            "title": "Abstract Continuation Semantics for Multiparty Interactions in Process Calculi based on CCS",
+            "authors": "Eneia Nicolae Todoran (Dept. of Computer Science, Technical University of Cluj-Napoca), Gabriel Ciobanu (Academia Europaea)",
+            "comments": "In Proceedings FROM 2024, arXiv:2410.23020",
+            "journal_refrence": "EPTCS 410, 2024, pp. 18-37",
+            "description": "We develop denotational and operational semantics designed with continuations for process calculi based on CCS extended with mechanisms offering support for multiparty interactions. We investigate the abstractness of this continuation semantics. We show that our continuation-based denotational models are weakly abstract with respect to the corresponding operational models.",
+            "subjects": "Programming Languages (cs.PL); Distributed, Parallel, and Cluster Computing (cs.DC); Multiagent Systems (cs.MA)",
+            "abs_name": "arXiv:2410.23761",
+            "abs_link": "https://arxiv.org/abs/2410.23761",
+            "pdf_link": "https://arxiv.org/pdf/2410.23761"
+        },
+        {
+            "category": "Cross submissions",
+            "title": "Linear and non-linear relational analyses for Quantum Program Optimization",
+            "authors": "Matthew Amy, Joseph Lunderville",
+            "comments": "30 pages, 13 figures, comments welcome!",
+            "journal_refrence": "Proc. ACM Program. Lang. 9, POPL, Article 37 (January 2025), 33 pages",
+            "description": "The phase folding optimization is a circuit optimization used in many quantum compilers as a fast and effective way of reducing the number of high-cost gates in a quantum circuit. However, existing formulations of the optimization rely on an exact, linear algebraic representation of the circuit, restricting the optimization to being performed on straightline quantum circuits or basic blocks in a larger quantum program.\nWe show that the phase folding optimization can be re-cast as an \\emph{affine relation analysis}, which allows the direct application of classical techniques for affine relations to extend phase folding to quantum \\emph{programs} with arbitrarily complicated classical control flow including nested loops and procedure calls. Through the lens of relational analysis, we show that the optimization can be powered-up by substituting other classical relational domains, particularly ones for \\emph{non-linear} relations which are useful in analyzing circuits involving classical arithmetic. To increase the precision of our analysis and infer non-linear relations from gate sets involving only linear operations -- such as Clifford+$T$ -- we show that the \\emph{sum-over-paths} technique can be used to extract precise symbolic transition relations for straightline circuits. Our experiments show that our methods are able to generate and use non-trivial loop invariants for quantum program optimization, as well as achieve some optimizations of common circuits which were previously attainable only by hand.",
+            "subjects": "Quantum Physics (quant-ph); Programming Languages (cs.PL)",
+            "abs_name": "arXiv:2410.23493",
+            "abs_link": "https://arxiv.org/abs/2410.23493",
+            "pdf_link": "https://arxiv.org/pdf/2410.23493"
+        },
+        {
+            "category": "Cross submissions",
+            "title": "Leveraging Slither and Interval Analysis to build a Static Analysis Tool",
+            "authors": "Stefan-Claudiu Susan (Alexandru Ioan Cuza University of Iasi, Department of Computer Science, Iasi, Romania)",
+            "comments": "In Proceedings FROM 2024, arXiv:2410.23020",
+            "journal_refrence": "EPTCS 410, 2024, pp. 150-166",
+            "description": "Even though much progress has been made in identifying and mitigating smart contract vulnerabilities, we often hear about coding or design issues leading to great financial losses. This paper presents our progress toward finding defects that are sometimes not detected or completely detected by state-of-the-art analysis tools. Although it is still in its incipient phase, we developed a working solution built on top of Slither that uses interval analysis to evaluate the contract state during the execution of each instruction. To improve the accuracy of our results, we extend interval analysis by also considering the constraints imposed by specific instructions. We present the current solution architecture in detail and show how it could be extended to other static analysis techniques, including how it can be integrated with other third-party tools. Our current benchmarks contain examples of smart contracts that highlight the potential of this approach to detect certain code defects.",
+            "subjects": "Logic in Computer Science (cs.LO); Programming Languages (cs.PL); Software Engineering (cs.SE)",
+            "abs_name": "arXiv:2410.23766",
+            "abs_link": "https://arxiv.org/abs/2410.23766",
+            "pdf_link": "https://arxiv.org/pdf/2410.23766"
+        },
+        {
+            "category": "Cross submissions",
+            "title": "A Type System for Data Flow and Alias Analysis in ReScript",
+            "authors": "Nicky Ask Lund (Department of Computer Science, Aalborg University), Hans H\u00fcttel (Department of Computer Science, University of Copenhagen)",
+            "comments": "In Proceedings FROM 2024, arXiv:2410.23020. A full version of this paper is available at arXiv:2408.11954",
+            "journal_refrence": "EPTCS 410, 2024, pp. 116-132",
+            "description": "ReScript is a strongly typed language that targets JavaScript, as an alternative to gradually typed languages, such as TypeScript. In this paper, we present a sound type system for data-flow analysis for a subset of the ReScript language, more specifically for a lambda-calculus with mutability and pattern matching. The type system is a local analysis that collects information about variables that are used at each program point as well as alias information.",
+            "subjects": "Logic in Computer Science (cs.LO); Programming Languages (cs.PL)",
+            "abs_name": "arXiv:2410.23984",
+            "abs_link": "https://arxiv.org/abs/2410.23984",
+            "pdf_link": "https://arxiv.org/pdf/2410.23984"
+        },
+        {
+            "category": "Replacement submissions",
+            "title": "Synthetic Programming Elicitation for Text-to-Code in Very Low-Resource Programming and Formal Languages",
+            "authors": "Federico Mora, Justin Wong, Haley Lepe, Sahil Bhatia, Karim Elmaaroufi, George Varghese, Joseph E. Gonzalez, Elizabeth Polgreen, Sanjit A. Seshia",
+            "comments": "14 pages, 6 figures, 1 table",
+            "description": "Recent advances in large language models (LLMs) for code applications have demonstrated remarkable zero-shot fluency and instruction following on challenging code related tasks ranging from test case generation to self-repair. Unsurprisingly, however, models struggle to compose syntactically valid programs in programming languages unrepresented in pre-training, referred to as very low-resource Programming Languages (VLPLs). VLPLs appear in crucial settings, including domain-specific languages for internal tools, tool-chains for legacy languages, and formal verification frameworks. Inspired by a technique called natural programming elicitation, we propose designing an intermediate language that LLMs \"naturally\" know how to use and which can be automatically compiled to a target VLPL. When LLMs generate code that lies outside of this intermediate language, we use compiler techniques to repair the code into programs in the intermediate language. Overall, we introduce \\emph{synthetic programming elicitation and compilation} (SPEAC), an approach that enables LLMs to generate syntactically valid code even for VLPLs. We empirically evaluate the performance of SPEAC in a case study for the UCLID5 formal verification language and find that, compared to existing retrieval and fine-tuning baselines, SPEAC produces syntactically correct programs more frequently and without sacrificing semantic correctness.",
+            "subjects": "Programming Languages (cs.PL); Machine Learning (cs.LG)",
+            "abs_name": "arXiv:2406.03636",
+            "abs_link": "https://arxiv.org/abs/2406.03636",
+            "pdf_link": "https://arxiv.org/pdf/2406.03636"
+        },
+        {
+            "category": "Replacement submissions",
+            "title": "Programming of Cellular Automata in C and C++",
+            "authors": "Patrik Christen",
+            "comments": "5 pages, 1 figure",
+            "description": "This study explores running times of different ways to program cellular automata in C and C++, i.e. looping through arrays by different means, the effect of structures and objects, and the choice of data structure (array versus vector in C++) and compiler (GNU gcc versus Apple clang). Using arrays instead of vectors, using pointers instead of array indices, using C instead of C++, and using structures and objects instead of primitive data types has little to negligible effects on the running time. Also, the choice of compiler has only a minor effect, except for simple update functions, in which case clang seems to find better ways to optimise it, especially for index-based access. If one is interested in multi-state cellular automata, structures and objects can be used without loss of performance in C and C++, respectively. The study supports the recommendation from practice to use vector in C++ and adds to it the use of index-based access for cellular automata. Future studies might investigate Apple's Metal shader or compiler optimisation, especially with respect to the update function.",
+            "subjects": "Programming Languages (cs.PL)",
+            "abs_name": "arXiv:2410.10022",
+            "abs_link": "https://arxiv.org/abs/2410.10022",
+            "pdf_link": "https://arxiv.org/pdf/2410.10022"
+        },
+        {
+            "category": "Replacement submissions",
+            "title": "Target-Aware Implementation of Real Expressions",
+            "authors": "Brett Saiki, Jackson Brough, Jonas Regehr, Jes\u00fas Ponce, Varun Pradeep, Aditya Akhileshwaran, Zachary Tatlock, Pavel Panchekha",
+            "description": "New low-precision accelerators, vector instruction sets, and library functions make maximizing accuracy and performance of numerical code increasingly challenging. Two lines of work$\\unicode{x2013}$traditional compilers and numerical compilers$\\unicode{x2013}$attack this problem from opposite directions. Traditional compiler backends optimize for specific target environments but are limited in their ability to balance performance and accuracy. Numerical compilers trade off accuracy and performance, or even improve both, but ignore the target environment. We join aspects of both to produce Chassis, a target-aware numerical compiler.\nChassis compiles mathematical expressions to operators from a target description, which lists the real expressions each operator approximates and estimates its cost and accuracy. Chassis then uses an iterative improvement loop to optimize for speed and accuracy. Specifically, a new instruction selection modulo equivalence algorithm efficiently searches for faster target-specific programs, while a new cost-opportunity heuristic supports iterative improvement. We demonstrate Chassis' capabilities on 9 different targets, including hardware ISAs, math libraries, and programming languages. Chassis finds better accuracy and performance trade-offs than both Clang (by 3.5x) or Herbie (by up to 2.0x) by leveraging low-precision accelerators, accuracy-optimized numerical helper functions, and library subcomponents.",
+            "subjects": "Programming Languages (cs.PL)",
+            "abs_name": "arXiv:2410.14025",
+            "abs_link": "https://arxiv.org/abs/2410.14025",
+            "pdf_link": "https://arxiv.org/pdf/2410.14025"
+        },
+        {
+            "category": "Replacement submissions",
+            "title": "A Distribution Semantics for Probabilistic Term Rewriting",
+            "authors": "Germ\u00e1n Vidal",
+            "comments": "Submitted for publication",
+            "description": "Probabilistic programming is becoming increasingly popular thanks to its ability to specify problems with a certain degree of uncertainty. In this work, we focus on term rewriting, a well-known computational formalism. In particular, we consider systems that combine traditional rewriting rules with probabilities. Then, we define a distribution semantics for such systems that can be used to model the probability of reducing a term to some value. We also show how to compute a set of \"explanations\" for a given reduction, which can be used to compute its probability. Finally, we illustrate our approach with several examples and outline a couple of extensions that may prove useful to improve the expressive power of probabilistic rewrite systems.",
+            "subjects": "Programming Languages (cs.PL); Artificial Intelligence (cs.AI)",
+            "abs_name": "arXiv:2410.15081",
+            "abs_link": "https://arxiv.org/abs/2410.15081",
+            "pdf_link": "https://arxiv.org/pdf/2410.15081"
+        },
+        {
+            "category": "Replacement submissions",
+            "title": "Coding Reliable LLM-based Integrated Task and Knowledge Agents with GenieWorksheets",
+            "authors": "Harshit Joshi, Shicheng Liu, James Chen, Robert Weigle, Monica S. Lam",
+            "comments": "preprint",
+            "description": "Large Language Models (LLMs) present an opportunity to create automated assistants that can help users navigate complex tasks. However, existing approaches have limitations in handling conditional logic, integrating knowledge sources, and consistently following instructions. Researchers and industry professionals often employ ad hoc pipelines to construct conversational agents. These pipelines aim to maintain context, address failure cases, and minimize hallucinations, yet frequently fail to achieve these objectives. To this end, we present Genie - a programmable framework for creating task-oriented conversational agents that are designed to handle complex user interactions and knowledge queries. Unlike LLMs, Genie provides reliable grounded responses, with controllable agent policies through its expressive specification, Genie Worksheet. In contrast to dialog trees, it is resilient to diverse user queries, helpful with knowledge sources, and offers ease of programming policies through its declarative paradigm. The agents built using Genie outperforms the state-of-the-art method on complex logic domains in STARV2 dataset by up to 20.5%. Additionally, through a real-user study involving 62 participants, we show that Genie beats the GPT-4 with function calling baseline by 21.1%, 20.1%, and 61% on execution accuracy, dialogue act accuracy, and goal completion rate, respectively, on three diverse real-world domains",
+            "subjects": "Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Programming Languages (cs.PL)",
+            "abs_name": "arXiv:2407.05674",
+            "abs_link": "https://arxiv.org/abs/2407.05674",
+            "pdf_link": "https://arxiv.org/pdf/2407.05674"
+        }
+    ]
+}
